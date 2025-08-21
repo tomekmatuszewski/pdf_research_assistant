@@ -62,7 +62,7 @@
 
     qwen3:latest
  
-      ![alt text](images/rag2.png)
+    ![alt text](images/rag2.png)
 
     Overally, smaller model perofmed better in that case.
 
