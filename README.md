@@ -16,6 +16,8 @@
 
     Injestion is done via python script injest.py (backend dir)
 
+    LLM models will be downloaded during conteners initialization (currenly qwen3:latest & qwen3:1.7b)
+
 4. Technologies
     - Python 3.13
     - Docker and Docker Compose for containerization
