@@ -14,6 +14,8 @@
 
     PDF data from the data directory is automatically loaded into the Qdrant database. The application will start, and users can interact with the chat frontend to write prompts and receive answers based on the loaded PDFs.
 
+    Injestion is done via python script injest.py (backend dir)
+
 4. Technologies
     - Python 3.13
     - Docker and Docker Compose for containerization
@@ -64,7 +66,7 @@
  
       <img src="images/rag2.png" width="400">
 
-    Overally, smaller model perofmed better in that case.
+    Overally, smaller model performed better in that case.
 
 8. Future improvements
     1. Focusing of permormance, get faster response from LLM
