@@ -27,17 +27,17 @@
     - Ollama and qwen3:latest & qwen3:1.7b as LLMs
 
 5. Urls
-    Frontend: http://localhost:8501
-    Backednd API: http://localhost:8000/healthcheck (healthcheck endpoint used here)
-    Qdrant: http://localhost:6333/dashboard#/welcome
+    - Frontend: http://localhost:8501
+    - Backednd API: http://localhost:8000/healthcheck (healthcheck endpoint used here)
+    - Qdrant: http://localhost:6333/dashboard#/welcome
 
     Frontend:
         ![alt text](images/image.png)
 
 6. Code
-    Frontend:
+    - Frontend:
         app.py - app frontend code
-    Backend:
+    - Backend:
         injest.py - injestion of data to Qdrant (including chunking)
         pdf_to_qdrant.py - class responsible for pdf to vectors conversion
         qdrant_connector.py - class repsonsbile for Qdrant connection
@@ -45,13 +45,16 @@
         entrypoint.sh - running injestion to Qdrant on container start
 
 7. Evaluation
+
     Retrieval evaluation -> notebooks/evaluation_retrieval.ipynb
         Model comparison:
-            jinaai/jina-embeddings-v2-small-en vs all-MiniLM-L6-v2
 
-            Using jinaai/jina-embeddings-v2-small-en gave definielty better score and answer's order
+            - jinaai/jina-embeddings-v2-small-en vs all-MiniLM-L6-v2
 
-        Semantic search vs hybrid_search
+            - Using jinaai/jina-embeddings-v2-small-en gave definielty better score and answer's order
+
+        Semantic search vs hybrid_search:
+
             for tested dataset hydrib search didn't provide any significat improvemnt, due to siplicity and performance I decided to stay with semantic search
 
     Rag evaluation:
