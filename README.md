@@ -57,10 +57,12 @@
         4. Two qwen small llm models evaluation - qwen3:1.7b, qwen3:latest
 
     qwen3:1.7b
-    ![alt text](images/rag1.png)
+
+      ![alt text](images/rag1.png)
 
     qwen3:latest
-    ![alt text](images/rag2.png)
+ 
+      ![alt text](images/rag2.png)
 
     Overally, smaller model perofmed better in that case.
 
