@@ -68,6 +68,8 @@
 
     Overally, smaller model performed better in that case.
 
-8. Future improvements
+8. Contenerization - fully Docker + Docker compose
+
+9. Future improvements
     1. Focusing of permormance, get faster response from LLM
     2. Adding monitoring using Grafana
