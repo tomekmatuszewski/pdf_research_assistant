@@ -1,0 +1,230 @@
+Relevance,Explanation,question,answer,model
+RELEVANT,"The generated answer directly addresses the question by providing the name of the study program direction, which is 'zarządzanie i inżynieria produkcji'. The answer is concise and fully relevant to the query.",Jaka jest nazwa kierunku studiów opisanych w programie?,"
+
+Nazwa kierunku studiów opisanych w programie to ""zarządzanie i inżynieria produkcji"".",qwen3:latest
+RELEVANT,"The generated answer directly addresses the question by specifying the level of the Polish Qualifications Framework (PRK) for the given study direction, providing a clear and accurate response.",Na jakim poziomie Polskiej Ramy Kwalifikacji znajduje się ten kierunek?,"
+
+Na podstawie kontekstu, kierunek ""zarządzanie i inżynieria produkcji"" znajduje się na poziomie 6 Polskiej Ramy Kwalifikacji (PRK).",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the lack of specific information in the provided context regarding the duration of studies in the field of 'zarządzanie i inżynieria produkcji'. However, it does not provide any relevant information about the actual number of semesters, making it only partially relevant to the question.",Ile semestrów trwają studia stacjonarne na kierunku zarządzanie i inżynieria produkcji?,"
+
+Na podstawie dostarczonych informacji nie można jednoznacznie określić, ile semestrów trwają studia stacjonarne na kierunku zarządzanie i inżynieria produkcji. Żaden z fragmentów kontekstu nie zawiera jasnej odpowiedzi na to pytanie.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the lack of specific information about the professional title for graduates of the 'zarządzanie i inżynieria produkcji' program, which is relevant to the question. However, it does not provide any direct or indirect information about the actual title, making the answer only partially relevant.",Jaki tytuł zawodowy otrzymuje absolwent tego kierunku?,"
+
+Na podstawie dostarczonego kontekstu nie można jednoznacznie określić, jaki tytuł zawodowy otrzymuje absolwent kierunku ""zarządzanie i inżynieria produkcji"". Brak jest wprost informacji o tym, jaki tytuł zawodowy jest przewidziany dla absolwentów tego kierunku.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer partially addresses the question by acknowledging that the number of ECTS points required to complete full-time studies cannot be determined based on the provided data. However, it does not provide a direct answer to the question and instead highlights a lack of specific information.","Ile punktów ECTS trzeba zdobyć, aby ukończyć studia stacjonarne?","
+
+Na podstawie dostarczonych danych nie można określić liczby punktów ECTS, które trzeba zdobyć, aby ukończyć studia stacjonarne. Brak jest informacji o liczbie punktów ECTS w kontekście studiów stacjonarnych na kierunku zarządzanie i inżynieria produkcji.",qwen3:latest
+RELEVANT,"The generated answer directly addresses the question by stating that the number of hours of study in the full-time program cannot be determined based on the provided text. It is relevant because it acknowledges the lack of information in the given context, which is the core of the query.",Ile godzin zajęć obejmuje program studiów stacjonarnych?,"
+
+Na podstawie dostarczonych fragmentów tekstu nie można określić liczby godzin zajęć obejmujących program studiów stacjonarnych. Brak jest wskazania na liczby godzin zajęć w kontekście opisów dotyczących działalności naukowej, komisji, praktyk czy monitorowania efektów uczenia się.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the lack of specific information about the number of practice hours in the full-time study program, which is directly related to the question. However, it does not provide any concrete data or answer to the question, making it only partially relevant.",Ile godzin praktyk przewidziano w programie dla studiów stacjonarnych?,"
+
+Na podstawie dostarczonego kontekstu nie można jednoznacznie określić liczby godzin praktyk przewidzianych w programie studiów stacjonarnych. W tekście zawarto informacje dotyczące zasad zaliczania praktyki, warunków jej wykonania oraz odpowiedzialności opiekuna praktyk, jednak nie podano jasno określonej liczby godzin praktyk przewidzianych w programie.",qwen3:latest
+RELEVANT,"The generated answer directly addresses the question by specifying that the classes are conducted in English, which is the language requested in the question.",W jakim języku prowadzone są zajęcia?,"
+
+Zajęcia prowadzone są w języku angielskim.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the question about key learning outcomes in the context of knowledge, but it also states that the provided context does not contain direct information on this topic. While it partially addresses the question by indicating the lack of relevant information, it does not provide any specific or direct answer to the question about key learning outcomes.",Jakie są kluczowe efekty uczenia się w zakresie wiedzy?,"
+
+Na podstawie dostarczonego kontekstu nie można wprost określić konkretnych kluczowych efektów uczenia się w zakresie wiedzy, ponieważ tekst zawiera informacje dotyczące procedur edukacyjnych, monitorowania karier absolwentów oraz wymagań związanych z pracą dyplomową, ale nie bezpośrednio opisuje efekty uczenia się w zakresie wiedzy.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the question about practical skills for graduates but states that specific skills cannot be determined from the provided context. While it does not directly answer the question, it is relevant in discussing the limitations of the available information.",Jakie umiejętności praktyczne powinien zdobyć absolwent kierunku?,"
+
+Na podstawie dostarczonego kontekstu nie można bezpośrednio określić konkretnych umiejętności praktycznych, które powinien zdobyć absolwent kierunku zarządzanie i inżynieria produkcji. Kontekst zawiera informacje dotyczące monitorowania karier absolwentów, współpracy z pracodawcami, przeprowadzania ankiet oraz realizacji praktyk, ale nie wskazuje jasno na konkretne umiejętności, które absolwent powinien zdobyć.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer touches on the topic of social competencies required from a graduate, but it is vague and lacks specific information about the actual competencies. It focuses more on the process of acquiring them rather than listing or explaining the specific social competencies.",Jakie kompetencje społeczne są wymagane od absolwenta?,"
+
+Na podstawie kontekstu, kompetencje społeczne są wymagane od absolwenta jako część zdobywania umiejętności i kompetencji w warunkach właściwych dla danego zakresu działalności zawodowej. Praktyka studencka ma na celu zdobycie tych kompetencji społecznych poprzez samodzielne wykonanie przez studenta czynności praktycznych.",qwen3:latest
+PARTLY_RELEVANT,"Odpowiedź odnosi się do pytania, ale nie dostarcza konkretnej odpowiedzi na pytanie, czyli w którym semestrze odbywa się praktyka. Zamiast tego informuje, że brakuje danych do jednoznacznej odpowiedzi, co częściowo odpowiada na pytanie, ale nie podaje żadnej konkretnej informacji o semestrze.",Na którym semestrze realizowana jest obowiązkowa praktyka zawodowa?,"
+
+Na podstawie dostarczonych informacji nie można jednoznacznie określić, w którym semestrze realizowana jest obowiązkowa praktyka zawodowa, ponieważ żaden z fragmentów kontekstu nie wskazuje konkretnie na semestr. Obejmuje to jednak wskazówkę, że praktyki odbywają się w terminie przewidzianym harmonogramem roku, co sugeruje, że są one przewidziane w trakcie studiów, ale nie wskazuje na dokładny semestr.",qwen3:latest
+RELEVANT,The generated answer directly addresses the question by stating that the number of ECTS points assigned to professional practice cannot be determined based on the provided information. It is relevant because it acknowledges the lack of information and provides a clear response to the query.,Ile punktów ECTS przypisano do praktyki zawodowej?,"
+
+Na podstawie dostarczonych informacji nie można określić liczby punktów ECTS przypisanych do praktyki zawodowej. Brak jest wskazania na to w podanych fragmentach tekstu.",qwen3:latest
+PARTLY_RELEVANT,"Odpowiedź odnosi się do pytania, ale nie dostarcza bezpośredniego potwierdzenia czy zaprzeczenia, czy praktyka zawodowa jest oceniana stopniem. Zamiast tego mówi, że brakuje informacji na ten temat w dostarczonych danych, co częściowo odpowiada na pytanie, ale nie rozwiązuje go w pełni.",Czy praktyka zawodowa jest oceniana stopniem?,"
+
+Na podstawie dostarczonych informacji nie ma wprost wskazania na to, że praktyka zawodowa jest oceniana stopniem. Kontekst opisuje różne aspekty działalności edukacyjnej, takie jak ankietyzacja absolwentów, monitorowanie efektów uczenia się, współpraca z pracodawcami oraz hospitacja zajęć, ale nie zawiera informacji o ocenie praktyki zawodowej w skali stopniowej.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer addresses some aspects of the rules for passing a vocational internship, such as the need to contact a mentor and the possibility of repeating the internship if the experience is insufficient. However, it is limited to specific details related to a particular study program (zarządzanie i inżynieria produkcji) and does not provide a comprehensive overview of the general principles of internship completion.",Jakie są zasady zaliczenia praktyki zawodowej?,"
+
+Zasady zaliczenia praktyki zawodowej określone są w kontekście następująco:
+
+1. Student musi zgłosić się do opiekuna praktyk na kierunku zarządzanie i inżynieria produkcji w terminie najpóźniej na 14 dni przed końcem zajęć dydaktycznych semestru, w programie którego jest przewidziana praktyka.
+
+2. Jeżeli promotor uzna, że uzyskane przez studenta doświadczenie zawodowe nie jest wystarczające np. do realizacji pracy dyplomowej, to wówczas student zobowiązany jest do odbycia praktyki.",qwen3:latest
+NON_RELEVANT,"Generated answer does not provide any relevant information about the elective subjects available in the 5th semester of full-time studies. Instead, it states that the information cannot be determined based on the provided context, which is not helpful in answering the question.",Jakie są przedmioty obieralne dostępne na 5 semestrze studiów stacjonarnych?,"
+
+Na podstawie dostarczonego kontekstu nie można określić, jakie są przedmioty obieralne dostępne na 5 semestrze studiów stacjonarnych. Brak w kontekście informacji dotyczących przedmiotów obieralnych oraz ich dostępności w konkretnym semestrze.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer provides some examples of activities related to the social and humanities fields, such as academic activities, professional practice, and interactions with industry representatives. However, the examples are somewhat generic and not clearly tied to specific humanistic or social disciplines, making the answer only partially relevant to the question.",Jakie są przykłady zajęć z obszaru humanistycznego lub społecznego?,"
+
+Na podstawie podanych informacji, przykłady zajęć z obszaru humanistycznego lub społecznego obejmują:
+
+- Zajęcia związane z prowadzoną w uczelni działalnością naukową.
+- Praktyka zawodowa, która ma na celu zdobycie umiejętności i kompetencji społecznych w warunkach właściwych dla danego zakresu działalności zawodowej.
+- Dyskusje z przedstawicielami przemysłu podczas różnych typów spotkań, konferencji i uroczystości wydziałowych z udziałem przedstawicieli przemysłu.
+- Kontakt z pracownikami uczelni, takimi jak prodziekan, dziekan, członkowie rady wydziału, komisji oraz zespołów.",qwen3:latest
+NON_RELEVANT,"Generated answer does not address the question directly. It states that the provided data does not contain information about AI and machine learning electives, but it does not provide any relevant information or alternative sources about such subjects.",Jakie przedmioty obieralne dotyczą sztucznej inteligencji i uczenia maszynowego?,"
+
+Na podstawie dostarczonych danych nie można określić, jakie przedmioty obieralne dotyczą sztucznej inteligencji i uczenia maszynowego. Wszystkie fragmenty tekstu dotyczą programu studiów na kierunku zarządzanie i inżynieria produkcji, a nie zawierają informacji na temat przedmiotów obieralnych związanych z sztuczną inteligencją i uczeniem maszynowym.",qwen3:latest
+NON_RELEVANT,"Odpowiedź nie dotyczy bezpośrednio pytania, ponieważ nie dostarcza żadnej informacji na temat semestru realizacji zajęć z wychowania fizycznego, a tylko stwierdza brak danych. Nie odpowiada na pytanie, ani nie przynosi żadnych wskazówek dotyczących odpowiedzi.",Na którym semestrze realizowane są zajęcia z wychowania fizycznego?,"
+
+Na podstawie dostarczonych danych nie można jednoznacznie określić, w którym semestrze realizowane są zajęcia z wychowania fizycznego. Brak jest informacji w kontekście dotyczącej semestrów i przedmiotów związanych z wychowaniem fizycznym.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer addresses the question by stating that there is no direct information about ECTS points assigned to physical education in the provided context. However, it does not provide any additional relevant information or clarification beyond this statement, making the response only partially relevant.",Czy wychowanie fizyczne ma przypisane punkty ECTS?,"
+
+Na podstawie dostarczonego kontekstu nie można jednoznacznie stwierdzić, czy wychowanie fizyczne ma przypisane punkty ECTS. W podanych fragmentach dokumentu nie ma wprost informacji o przypisaniu punktów ECTS do wychowania fizycznego.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the lack of specific information about required courses for the first semester, which is relevant to the question. However, it does not provide any actual information or details about the required courses, making it only partially relevant.",Jakie szkolenia obowiązują studentów w pierwszym semestrze?,"
+
+Na podstawie dostarczonych informacji nie ma jasno określonych szkoleń obowiązujących studentów w pierwszym semestrze. Dokumenty opisują praktyki, współpracę z pracodawcami oraz inne aspekty edukacji, ale nie wskazują konkretnych szkoleń obowiązujących w pierwszym semestrze.",qwen3:latest
+RELEVANT,The generated answer directly addresses the question by stating that the number of hours for a foreign language in a full-time form cannot be determined based on the provided data. It is relevant because it acknowledges the lack of information related to the question.,Ile godzin języka obcego przewidziano w formie stacjonarnej?,"
+
+Na podstawie dostarczonych danych nie można określić liczby godzin zajęć językowych przewidzianych w formie stacjonarnej. Brak jest informacji dotyczącej tego aspektu w dostarczonym kontekście.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the question but does not provide a direct answer regarding the language level. It states that the information provided is insufficient to determine the language level, which is partially relevant but does not address the question comprehensively.",Na jakim poziomie językowym student powinien posługiwać się językiem obcym po ukończeniu kursu?,"
+
+Na podstawie dostarczonych informacji nie można jednoznacznie określić, na jakim poziomie językowym student powinien posługiwać się językiem obcym po ukończeniu kursu. Dokument zawiera informacje dotyczące jakości kształcenia, współpracy z pracodawcami, analizy wyników, oraz warunków przyjęcia na studia, jednak nie zawiera jasnego wskazania na poziom językowy.",qwen3:latest
+RELEVANT,"Generated answer directly addresses the question by listing various methods of verifying learning outcomes, including electronic platforms, alumni surveys, analysis of student data, teacher monitoring, and assessment of social competencies. All the points are relevant to the topic of verifying learning outcomes.",Jakie są sposoby weryfikacji efektów uczenia się?,"
+
+Sposoby weryfikacji efektów uczenia się obejmują:
+
+1. **Użycie specjalistycznych platform elektronicznych**, takich jak system eKursy, który pozwala rozszerzyć możliwości weryfikacji efektów uczenia się studentów.
+2. **Ankietyzacja absolwentów**, przeprowadzana zgodnie z Procedurą monitorowania karier zawodowych absolwentów przez Centrum Karier i Praktyk Studentów i Absolwentów Politechniki Poznańskiej.
+3. **Analiza zmian stanu osobowego grup dziekańskich**, przeprowadzana przez prodziekani ds. studiów stacjonarnych i niestacjonarnych po zakończeniu obu semestrów.
+4. **Monitorowanie efektów uczenia się przez nauczycieli akademickich**, którzy prowadzą zajęcia na kierunku zarządzanie i inżynieria produkcji.
+5. **Sprawdzenie umiejętności i kompetencji społecznych nabytych przez studentów**, w tym świadomości roli społecznej absolwenta uczelni technicznej oraz umiejętności formułowania i przekazywania informacji i opinii dotyczących osiągnięć techniki.",qwen3:latest
+RELEVANT,"Generated answer provides a detailed description of the process of preparing a diploma thesis, outlining key stages such as preparatory work, seminars, examination, and review. It directly addresses the question about how the process of preparing a diploma thesis looks.",Jak wygląda proces przygotowania pracy dyplomowej?,"
+
+Proces przygotowania pracy dyplomowej obejmuje kilka etapów, które są szczegółowo opisane w kontekście. Oto podstawowe punkty:
+
+1. **Przygotowanie działalności inżynierskiej**: Student prowadzi działalność inżynierską związana z tematyką pracy dyplomowej. Jest to kluczowy etap, w którym student stosuje wiedzę zdobyta podczas studiów do rozwiązywania problemów praktycznych.
+
+2. **Seminarium przeddyplomowe**: Student przeprowadza i prezentuje wyniki badań związanych z tematyką pracy dyplomowej. Seminarium to okazja do weryfikacji wiedzy i umiejętności studenta oraz do otrzymania feedbacku od opiekunów.
+
+3. **Seminarium dyplomowe**: Podobnie jak w przypadku seminarium przeddyplomowego, student prezentuje wyniki badań związanych z tematyką pracy dyplomowej, ale na bardziej zaawansowanym etapie. Seminarium to punkt, w którym student pokazuje pełny rozdział pracy dyplomowej.
+
+4. **Egzamin dyplomowy**: W trakcie egzaminu dyplomowego student przedstawia prezentację, a następnie dyskutuje pracę dyplomową oraz odpowiada na minimum trzy pytania zadane przez komisję, która składa się z prodziekana ds. jakości kształcenia, dziekana lub innych członków komisji.
+
+5. **Recenzja pracy dyplomowej**: Praca dyplomowa może być recenzowana przez specjalistę, który może nie być nauczycielem akademickim, ale ma tytuł zawodowy magistra (lub równorzędnym) albo stopień doktora.
+
+6. **Kontakt z opiekunem**: W trakcie przygotowania pracy dyplomowej student ma kontakt z opiekunem, który wspiera go w pracy i ocenia postęp.
+
+7. **Weryfikacja kompetencji**: Kompetencje studenta są weryfikowane w oparciu o przedstawioną prezentację, dyskusję dotyczącą pracy dyplomowej oraz odpowiedzi na pytania zadane przez komisję.
+
+Wszystkie te etapy są częścią procesu przygotowania pracy dyplomowej, który ma na celu weryfikację wiedzy, umiejętności i kompetencji studenta w zakresie jego kierunku studiów.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer partially addresses the question by acknowledging that the number of ECTS points assigned to preparing a diploma thesis is not provided in the context. However, it also mentions the total ECTS points required for studies, which is not directly relevant to the specific question about the diploma thesis preparation.",Ile punktów ECTS przypisano do przygotowania pracy dyplomowej?,"
+
+Na podstawie dostarczonych informacji liczba punktów ECTS wymagana do uzyskania kwalifikacji na studiach stacjonarnych wynosi 210 punktów ECTS. Jednakże, pytanie dotyczy punktów ECTS przypisanych do przygotowania pracy dyplomowej, a w dostarczonym kontekście nie podano konkretnych informacji dotyczących liczby punktów ECTS przypisanych do tego elementu.",qwen3:latest
+RELEVANT,"The generated answer directly addresses the question by stating that the information provided does not allow for a definitive determination of the semester in which the diploma seminar is conducted. This response is relevant because it acknowledges the lack of information and provides a clear, honest assessment.",W jakim semestrze realizowane jest seminarium dyplomowe?,"
+
+Na podstawie dostarczonych informacji nie można jednoznacznie określić, w jakim semestrze realizowane jest seminarium dyplomowe. W tekście nie ma wprost odpowiedzi na to pytanie.",qwen3:latest
+NON_RELEVANT,"Generated answer does not provide any relevant information about the criteria for passing a semester. Instead, it states that the information provided does not contain the answer and refers to unrelated aspects of studies.",Jakie są kryteria zaliczenia semestru?,"
+
+Na podstawie dostarczonych informacji nie można jednoznacznie określić kryteriów zaliczenia semestru, ponieważ żaden z fragmentów nie zawiera bezpośrednio odpowiedzi na to pytanie. Wszystkie opisane treści dotyczą innych aspektów studiów, takich jak praktyki, monitorowanie karier absolwentów, współpraca z pracodawcami oraz formy zajęć.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges that the provided text does not contain information about the grading scale used in studies, which is directly related to the question. However, it does not provide any specific information about the actual grading scales used in studies, making the answer only partially relevant.",Jakie są stopnie w skali ocen stosowanej na studiach?,"
+
+Na podstawie dostarczonych fragmentów tekstu nie można jednoznacznie określić stopni w skali ocen stosowanej na studiach. W tekście nie ma wprost wskazania na skalę ocen, np. jakiego typu system oceniania (np. 2.0, 3.0, 6.0 itp.). Wszystkie fragmenty dotyczą innych aspektów studiów, takich jak monitorowanie karier absolwentów, praktyki, egzaminy dyplomowe czy opis przedmiotów.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer confirms that a student may propose their own thesis topic, which directly answers the question. However, the explanation provided is based on a context that is not included in the question, and the answer does not fully elaborate on the conditions or procedures for proposing a thesis topic. Therefore, it is partially relevant.",Czy student może zaproponować własny temat pracy dyplomowej?,"
+
+Na podstawie dostarczonego kontekstu, student może zaproponować własny temat pracy dyplomowej. W tekście jest wspomniane, że w przypadku studiów pierwszego stopnia dziekan może upoważnić do kierowania lub recenzowania pracy dyplomowej specjalistę niebędącego nauczycielem akademickim, a także że weryfikacja kompetencji studenta odbywa się w oparciu o przedstawioną prezentację, dyskusję dotyczącą pracy dyplomowej oraz odpowiedzi na pytania zadane przez komisję. To sugeruje, że istnieje możliwość zaproponowania własnego tematu pracy dyplomowej.",qwen3:latest
+NON_RELEVANT,"Generated answer does not address the question directly. It states that there is no information available, rather than providing any relevant conditions or criteria for continuing studies despite failing a subject.","Jakie warunki trzeba spełnić, aby móc kontynuować studia mimo niezaliczenia przedmiotu?","
+
+Na podstawie dostarczonych danych nie istnieją informacje dotyczące warunków, które muszą być spełnione, aby kontynuować studia mimo niezaliczenia przedmiotu. Odpowiedź na to pytanie nie może być wyciągnięta z podanych fragmentów tekstu.",qwen3:latest
+RELEVANT,"The generated answer directly addresses the question by specifying that a student may take the retake exam once per semester, which is relevant to the number of times a student can attempt the retake exam.",Ile razy student może podejść do egzaminu poprawkowego?,"
+
+Student może podejść do egzaminu poprawkowego raz w danym semestrze.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the lack of direct information about technical knowledge areas required from a graduate, but it partially addresses the question by mentioning the context of a specific study program and its focus areas. However, it does not provide concrete or specific technical knowledge domains as requested in the question.",Jakie są kluczowe obszary wiedzy technicznej wymagane od absolwenta?,"
+
+Na podstawie dostarczonych informacji nie można bezpośrednio określić kluczowych obszarów wiedzy technicznej wymaganych od absolwenta. W kontekście przedstawionym w materiałach dotyczących programu studiów ""zarządzanie i inżynieria produkcji"" na Wydziale Inżynierii Mechanicznej, akcent jest kładany na współpracy z pracodawcami, monitorowaniu karier absolwentów oraz jakości kształcenia. Nie ma jasnych informacji wskazujących na konkretną wiedzę techniczną, która musi być posiadana przez absolwenta.",qwen3:latest
+NON_RELEVANT,"Odpowiedź nie dotyczy bezpośrednio pytania, ponieważ nie dostarcza żadnej informacji na temat różnicy w liczbie godzin zajęć między studiami stacjonarnymi a niestacjonarnymi, a zamiast tego stwierdza brak danych w kontekście dostarczonym.",Czym różni się liczba godzin zajęć między studiami stacjonarnymi a niestacjonarnymi?,"
+
+Na podstawie dostarczonego kontekstu nie można wyciągnąć informacji o różnicy w liczbie godzin zajęć między studiami stacjonarnymi a niestacjonarnymi. W podanych fragmentach nie ma jasnego wskazania na liczbę godzin zajęć dla poszczególnych form studiów.",qwen3:latest
+RELEVANT,The generated answer directly addresses the question about the rules for passing optional subjects by explaining the common forms of assessment for different types of classes and emphasizing that the form of assessment is determined by the instructor and described in the ECTS card. This information is directly relevant to the question.,Jakie są zasady zaliczania przedmiotów obieralnych?,"
+
+Zasady zaliczania przedmiotów obieralnych są dostosowane do rodzaju oraz formy prowadzonych zajęć dydaktycznych. Zazwyczaj realizowane są następująco: wykłady – egzaminy albo zaliczenia, ćwiczenia – kolokwia lub sprawdziany, laboratoria – sprawdziany oraz sprawozdania, zajęcia projektowe – obrona projektu (etapowa i/lub końcowa). Decyzję o formie zaliczenia podejmuje osoba odpowiedzialna za zajęcia. Wybrane formy zaliczenia są opisane w kartach ECTS zajęć, a informacje o konkretnych kryteriach zaliczenia zawarte są w tych kartach.",qwen3:latest
+NON_RELEVANT,Generated answer explicitly states that it is not possible to provide examples of objects in the field of automation and robotics due to the context provided being unrelated to the topic. This indicates that the answer is completely non-relevant to the question.,Jakie są przykłady przedmiotów z zakresu automatyzacji i robotyzacji produkcji?,"
+
+Na podstawie dostarczonego kontekstu nie można wypisać przykładów przedmiotów z zakresu automatyzacji i robotyzacji produkcji. Wszystkie fragmenty dotyczą zagadnień związanych z organizacją studiów, praktyką zawodową, hospitacją zajęć oraz oceną jakości kształcenia, a nie z zakresu automatyzacji i robotyzacji produkcji.",qwen3:latest
+NON_RELEVANT,"Generated answer does not provide any relevant information about subjects that develop competences related to metrology and measurement systems. Instead, it states that the context does not contain such information, which is not helpful in answering the question.",Które przedmioty rozwijają kompetencje związane z metrologią i systemami pomiarowymi?,"
+
+Na podstawie dostarczonego kontekstu nie można jednoznacznie określić, które przedmioty rozwijają kompetencje związane z metrologią i systemami pomiarowymi. W dostarczonych fragmentach nie ma wprost odniesienia do metrologii czy systemów pomiarowych.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the lack of specific information about the semester in which the pre-thesis seminar is conducted, which is relevant to the question. However, it does not provide any direct answer or additional context that would help determine the semester, making it only partially relevant.",Na którym semestrze realizowane jest seminarium przeddyplomowe?,"
+
+Na podstawie dostarczonych informacji nie można jednoznacznie określić, w którym semestrze realizowane jest seminarium przeddyplomowe. Brak jest wskazówki w kontekście na temat semestru, w którym odbywa się to seminarium.",qwen3:latest
+RELEVANT,The generated answer directly addresses the question by stating that the number of ECTS points assigned to the pre-diploma seminar cannot be determined based on the provided data. It is relevant because it acknowledges the lack of information and provides a clear response to the query.,Ile punktów ECTS przypisano do seminarium przeddyplomowego?,"
+
+Na podstawie dostarczonych danych nie można określić liczby punktów ECTS przypisanych do seminarium przeddyplomowego. Brak jest informacji dotyczącej tego zagadnienia w podanym kontekście.",qwen3:latest
+RELEVANT,"Generated answer directly addresses the question by providing specific examples of activities related to the scientific activities of a university, such as student projects, laboratory work, diploma papers, and cooperation with employers. All examples are relevant to the context of academic and scientific work conducted by a university.",Jakie są przykłady zajęć związanych z prowadzoną działalnością naukową uczelni?,"
+
+Przykłady zajęć związanych z prowadzoną działalnością naukową uczelni obejmują:
+
+1. **Ankietyzacja absolwentów** – przeprowadzana zgodnie z Procedurą monitorowania karier zawodowych absolwentów przez Centrum Karier i Praktyk Studentów i Absolwentów Politechniki Poznańskiej.
+2. **Analiza zmian stanu osobowego grup dziekańskich** – przeprowadzana przez prodziekani ds. studiów stacjonarnych i niestacjonarnych po zakończeniu obu semestrów.
+3. **Zajęcia laboratoryjne i projektowe** – w trakcie których studenci mają możliwość pracy indywidualnej lub w grupie, promowane jest ich aktywność, a ich wypowiedzi i udział merytoryczny są oceniane.
+4. **Realizacja pracy dyplomowej** – w trakcie której studenci mają możliwość zastosowania wiedzy zdobytej podczas studiów.
+5. **Współpraca z pracodawcami** – zarówno formalna, jak i niesformalna, np. dyskusje z przedstawicielami przemysłu podczas różnych wydarzeń, konferencji i uroczystości wydziałowych.
+6. **Monitorowanie efektów uczenia się** – realizowane przez nauczycieli akademickich prowadzących zajęcia na kierunku.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer partially addresses the question by discussing learning outcomes related to product design, such as student participation in laboratory and project-based activities, completion of thesis work, and simulation of real-world experiments. However, it does not directly explain the specific learning effects (e.g., cognitive, emotional, or skill-based outcomes) associated with the process of designing products, which was the core focus of the question.",Jakie efekty uczenia się związane są z projektowaniem wyrobów?,"
+
+Na podstawie dostarczonych informacji, efekty uczenia się związane z projektowaniem wyrobów obejmują: 
+
+- Wypowiedzi i merytoryczny udział studentów podczas zajęć laboratoryjnych i projektowych, gdzie promują ich aktywność i oceniają ich wyniki. 
+- Realizację prac dyplomowych, w której studentowie mają możliwość indywidualnej lub zespołowej pracy, co przyczynia się do rozwoju ich kompetencji projektowych.
+- Odtworzenie warunków przeprowadzania eksperymentów naukowych lub zadań realizowanych w przemyśle podczas zajęć laboratoryjnych. 
+
+Te efekty są weryfikowane w trakcie zajęć oraz w czasie egzaminu dyplomowego.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer discusses various aspects of education and learning outcomes, some of which are related to quality management in an academic context. However, it does not directly address the broader concept of 'management of quality' as it relates to organizational or business quality management practices. The focus is more on educational quality rather than general quality management principles.",Jakie efekty uczenia się odnoszą się do zarządzania jakością?,"
+
+Na podstawie dostarczonego kontekstu, efekty uczenia się odnoszą się do zarządzania jakością w następujący sposób:
+
+- W ramach monitorowania efektów uczenia się na kierunku zarządzanie i inżynieria produkcji przeprowadzana jest analiza zmian stanu osobowego grup dziekańskich po zakończeniu obu semestrów. Analizowana jest również sprawność ds. jakości kształcenia lub dziekań.
+- Współpraca z pracodawcami jest uznawana za jeden z najważniejszych elementów kształtowania programu kształcenia, co wpływa na jakość edukacji i efekty uczenia się.
+- Podczas zajęć laboratoryjnych oraz projektowych nauczyciele akademcy dają studentom możliwość indywidualnej lub zespołowej pracy, promując ich aktywność na zajęciach oraz oceniając ich wypowiedzi i merytoryczny udział.
+- Praktyka studencka jest przewidziana w programie studiów, a w przypadku braku wystarczającego doświadczenia zawodowego student zobowiązany jest do odbycia praktyki, co wpływa na jakość uczenia się i przygotowanie do zawodu.
+- W trakcie egzaminu dyplomowego kompetencje studenta weryfikowane są w oparciu o przedstawioną prezentację, dyskusję dotyczącą pracy dyplomowej oraz na podstawie odpowiedzi na minimum trzy pytania zadane przez komisję egzaminacyjną, co stanowi formę oceny efektów uczenia się.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer acknowledges the question about the effects of learning related to knowledge of commercial law and ethics, but it states that there is no direct mention of these specific effects in the provided context. While it does not provide a detailed answer, it partially addresses the question by indicating the lack of specific information on the topic.",Jakie efekty uczenia się dotyczą znajomości prawa gospodarczego i etyki?,"
+
+Na podstawie dostarczonego kontekstu nie ma bezpośredniego wzmiankowania o efektach uczenia się dotyczących znajomości prawa gospodarczego i etyki. Dokumenty opisują ogólną strukturę programu studiów, monitorowanie efektów uczenia się oraz zgodność edukacji z Polską Ramą Kwalifikacji, ale nie zawierają konkretnych informacji na temat znajomości prawa gospodarczego i etyki jako efektów uczenia się.",qwen3:latest
+RELEVANT,"Generated answer directly addresses the question by listing specific competencies that an graduate acquires in the area of teamwork. Each point clearly relates to working in a team, collaboration, and group activities, making the answer highly relevant.",Jakie kompetencje zdobywa absolwent w zakresie pracy zespołowej?,"
+
+Absolwent w zakresie pracy zespołowej zdobywa kompetencje, takie jak:
+
+1. Współpraca w grupach i podejmowanie aktywności na zajęciach, zarówno indywidualnej, jak i zespołowej.
+2. Promowanie aktywności na zajęciach i ocenianie merytorycznego udziału w pracy zespołowej.
+3. Odtwarzanie warunków przeprowadzania eksperymentów naukowych lub zadań realizowanych w przemyśle w ramach zajęć laboratoryjnych.
+4. Realizacja pracy dyplomowej w formie zespołowa, co rozwija umiejętności współpracy i planowania w grupie.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer addresses the question by indicating that the data does not provide a clear answer on whether a student can pass a vocational practice based on professional experience. However, it does not directly answer the question with a clear 'yes' or 'no' and instead focuses on the absence of information, which makes the answer only partially relevant.",Czy student może zaliczyć praktykę zawodową na podstawie doświadczenia zawodowego?,"
+
+Na podstawie dostarczonych danych nie można jednoznacznie stwierdzić, czy student może zaliczyć praktykę zawodową na podstawie doświadczenia zawodowego. W tekście wspomniano, że praktyka zawodowa jest kierowana przez Centrum Praktyk i Karier Politechniki Poznańskiej na podstawie skierowania, umowy trójstronnej lub zobowiązania wewnętrznego. Nie ma wprost informacji o możliwości zaliczenia praktyki na podstawie doświadczenia zawodowego.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer addresses some of the obligations of a student during professional practice, such as completing the practice on time, submitting a completion report, gaining professional experience, and obtaining insurance. However, it is highly specific to the field of 'zarządzanie i inżynieria produkcji' (management and production engineering) and does not provide a general overview of student obligations during professional practice, which limits its relevance to the broader question.",Jakie są obowiązki studenta podczas praktyki zawodowej?,"
+
+Obowiązki studenta podczas praktyki zawodowej obejmują:
+
+1. **Zakończenie praktyki w terminie**: Student musi zakończyć praktykę w terminie określonym w programie studiów.
+2. **Podanie o zakończenie praktyki**: Student musi podać o zakończenie praktyki opiekunowi praktyk na kierunku zarządzanie i inżynieria produkcji w terminie najpóźniej na 14 dni przed końcem zajęć dydaktycznych semestru, w programie którego jest przewidziana prakyka.
+3. **Zdobycie doświadczenia zawodowego**: W przypadku, gdy opiekun praktyk uzna, że uzyskane przez studenta doświadczenie zawodowe nie jest wystarczające np. do realizacji pracy dyplomowej, student zobowiązany jest do odbycia praktyki.
+4. **Uzyskanie ubezpieczenia**: Student jest ubezpieczany w zakresie NNW i OC przez uczelnię na czas obowiązkowych praktyk.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer partially addresses the question by listing activities that may contribute to acquiring engineering competencies, such as practical training, cooperation with employers, and didactic activities. However, it is heavily focused on specific institutional practices of a particular faculty and does not provide a general or comprehensive overview of engineering competencies or the types of activities that typically enable their acquisition.",Które zajęcia umożliwiają zdobycie kompetencji inżynierskich?,"
+
+Na podstawie dostarczonego kontekstu, zajęcia umożliwiające zdobycie kompetencji inżynierskich obejmują:
+
+1. **Praktyki zawodowe** – przewidziane w programach studiów na kierunku zarządzanie i inżynieria produkcji. Student ma możliwość odbycia praktyki, jeśli promotor uzna, że uzyskane doświadczenie nie jest wystarczające do realizacji pracy dyplomowej.
+
+2. **Kooperacja z pracodawcami** – Wydział Inżynierii Mechanicznej uznaje za ważny element kształcenia współpracę z pracodawcami, zarówno formalną, jak i niesformalizowaną, np. w formie dyskusji z przedstawicielami przemysłu podczas spotkań, konferencji i uroczystości wydziałowych.
+
+3. **Hospitacja zajęć** – realizowana przez przełożonych w ramach monitorowania jakości kształcenia. Hospitacja dotyczy wszystkich nauczycieli akademickich, a w szczególności tych, którzy zostali nisko ocenieni w ankietach studentów.
+
+4. **Analiza efektów uczenia się** – przeprowadzana przez prodziekani ds. studiów, co umożliwia ocenę sprawności grup dziekańskich oraz zmian stanu osobowego po zakończeniu semestrów.
+
+5. **Zajęcia dydaktyczne i naukowe** – w ramach programu studiów, które umożliwiają zdobycie kompetencji w zakresie zarządzania i inżynierii produkcji, w tym zdolność do integrowania informacji, ich interpretacji i krytycznej oceny, jak również doboru metod i narzędzi do rozwiązywania złożonych i nietypowych zadań.",qwen3:latest
+RELEVANT,"Odpowiedź bezpośrednio odnosi się do pytania, wyjaśniając, że na podstawie dostępnych danych nie można określić znaczenia przedmiotów obieralnych w całkowitej liczbie punktów ECTS. Choć nie dostarcza szczegółowych informacji, odpowiada na pytanie, wskazując ograniczenia dostępnych danych.",Jakie znaczenie mają przedmioty obieralne w całkowitej liczbie punktów ECTS?,"
+
+Na podstawie dostarczonych danych nie można wyciągnąć wniosków dotyczących znaczenia przedmiotów obieralnych w całkowitej liczbie punktów ECTS. W kontekście, który został podany, nie ma informacji dotyczących punktów ECTS ani roli przedmiotów obieralnych w ich obliczu.",qwen3:latest
+RELEVANT,"Generated answer directly addresses the question by listing the elements that constitute the diploma process on the specified program, providing clear and relevant details about each component.",Jakie elementy obejmuje proces dyplomowania na tym kierunku?,"
+
+Proces dyplomowania na kierunku zarządzanie i inżynieria produkcji obejmuje następujące elementy:
+
+1. **Kierowanie i recenzowanie pracy dyplomowej** – przez specjalistę niebędącego nauczycielem akademickim, legitymującego się tytułem zawodowym magistra (lub równorzędnym) albo stopniem doktora. Dziekan może upoważnić taką osobę do kierowania lub recenzowania pracy dyplomowej.
+
+2. **Egzamin dyplomowy** – w trakcie którego kompetencje studenta weryfikowane są na podstawie:
+   - Prezentacji pracy dyplomowej,
+   - Dyskusji dotyczącej pracy dyplomowej,
+   - Odpowiedzi na minimum trzy pytania zadane przez komisję egzaminacyjną.
+
+3. **Weryfikacja kompetencji studenta** – odbywa się w oparciu o przedstawioną prezentację, dyskusję oraz odpowiedzi na pytania zadane przez komisję egzaminacyjną.",qwen3:latest
+PARTLY_RELEVANT,"Generated answer provides specific information about how the outcomes of graduates of a particular program (zarządzanie i inżynieria produkcji) are monitored, which is relevant to the general question about monitoring graduate outcomes. However, it is limited to a specific program and does not address the broader question about all programs or methods used across different disciplines.",Jak monitorowane są losy absolwentów kierunku?,"
+
+Losy absolwentów kierunku zarządzanie i inżynieria produkcji są monitorowane poprzez ankietyzację absolwentów przeprowadzaną zgodnie z Procedurą monitorowania karier zawodowych absolwentów przez Centrum Karier i Praktyk Studentów i Absolwentów Politechniki Poznańskiej. W ramach tego monitorowania analizowana jest zmiana stanu osobowego grup dziekańskich po zakończeniu obu semestrów oraz sprawność efektów uczenia się na kierunku.",qwen3:latest

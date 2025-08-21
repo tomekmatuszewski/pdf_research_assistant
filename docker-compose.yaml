@@ -1,0 +1,77 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./qdrant_storage:/qdrant/storage:z
+    restart: unless-stopped
+    networks:
+        - pdf-research-assistent-network
+    # healthcheck:
+    #   test: ["CMD-SHELL", "curl -f http://localhost:6333/health || exit 1"]
+    #   interval: 30s
+    #   timeout: 10s
+    #   retries: 3
+    #   start_period: 40s
+
+  backend:
+    build:
+      context: .
+      dockerfile: dockerfiles/Dockerfile_backend
+    container_name: backend
+    volumes:
+      - ./backend:/backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - qdrant
+    networks:
+        - pdf-research-assistent-network
+    environment:
+      QDRANT_HOST: qdrant
+      QDRANT_PORT: 6333
+      OLLAMA_HOST: ollama
+      OLLAMA_PORT: 11434
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11435:11434"
+    volumes:
+      - ./ollama_data:/root/.ollama
+    networks:
+      - pdf-research-assistent-network
+    restart: unless-stopped
+    entrypoint: ["/bin/bash", "-c", "\
+      ollama serve & \
+      sleep 5 && \
+      ollama pull qwen3:latest && \
+      ollama pull qwen3:1.7b && \
+      wait"]
+
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: dockerfiles/Dockerfile_frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    networks:
+      - pdf-research-assistent-network
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+      - BACKEND_HOST=backend
+      - BACKEND_PORT=8000
+
+networks:
+  pdf-research-assistent-network:
+    driver: bridge
+    name: pdf-research-assistent-network
