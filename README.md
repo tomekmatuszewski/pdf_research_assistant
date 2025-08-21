@@ -58,11 +58,11 @@
 
     qwen3:1.7b
 
-      ![alt text](images/rag1.png)
+      <img src="images/rag1.png" width="400">
 
     qwen3:latest
  
-    ![alt text](images/rag2.png)
+      <img src="images/rag2.png" width="400">
 
     Overally, smaller model perofmed better in that case.
 
