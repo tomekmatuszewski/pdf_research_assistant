@@ -137,6 +137,9 @@ To initialize the dashboard, ensure Grafana is running (it starts automatically 
 Then run:
 
 ```bash
+python3 -m venv .venv
+source source .venv/bin/activate ##(on Mac / Linux ) on Windows .venv\Scripts\activate
+pip install requests dotenv
 cd grafana
 python init.py
 ```
