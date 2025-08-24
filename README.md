@@ -21,7 +21,7 @@ The **PDF Research Assistant** is a tool designed to facilitate efficient inform
 To run the application, use:
 
 ```bash
-docker compose up
+docker compose up --build
 ```
 
 - PDF data from the `data` directory is automatically loaded into the Qdrant database.
