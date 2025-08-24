@@ -1,6 +1,6 @@
 import os
 from qdrant_connector import QdrantConnector
-import PyPDF2
+import pdfplumber
 
 
 class PDFToQdrant:
@@ -18,11 +18,10 @@ class PDFToQdrant:
     
     def _extract_pdf(self, pdf_path: str) -> str:
         try:
-            with open(pdf_path, 'rb') as file:
-                pdf_reader = PyPDF2.PdfReader(file)
-                text = ""
-                for page in pdf_reader.pages:
-                    text += page.extract_text()
+            text = ""
+            with pdfplumber.open(pdf_path) as pdf:
+                for page in pdf.pages:
+                    text += page.extract_text() + "\n"
             return text
         except Exception as e:
             print(f"Error reading PDF: {e}")

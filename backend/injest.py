@@ -42,6 +42,7 @@ if __name__ == "__main__":
             download_pdf(url, DATA_PATH)
 
     qdrant_connector = QdrantConnector(qdrant_host=os.getenv("QDRANT_HOST"))
+    qdrant_connector.recreate_collection()
 
     pdf_processor = PDFToQdrant(qdrant_connector=qdrant_connector)
     for file in DATA_PATH.glob("*.pdf"):

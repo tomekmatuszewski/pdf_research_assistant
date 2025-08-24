@@ -5,8 +5,6 @@ services:
     ports:
       - "6333:6333"
       - "6334:6334"
-    volumes:
-      - ./qdrant_storage:/qdrant/storage:z
     restart: unless-stopped
     networks:
         - pdf-research-assistent-network
@@ -71,6 +69,47 @@ services:
       - STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
       - BACKEND_HOST=backend
       - BACKEND_PORT=8000
+
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: pdf_research_assistant
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+        - "5432:5432"
+    networks:
+        - pdf-research-assistent-network
+    volumes:
+        - ./postgres_data:/var/lib/postgresql/data
+        - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+  
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_AUTH_DISABLE_LOGIN_FORM=false
+      - GF_AUTH_ANONYMOUS_ENABLED=false
+      - GF_SECURITY_ALLOW_EMBEDDING=true
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+      - GF_USERS_ALLOW_ORG_CREATE=false
+      - GF_USERS_AUTO_ASSIGN_ORG=true
+      - GF_USERS_AUTO_ASSIGN_ORG_ROLE=Viewer
+      - GF_SECURITY_SECRET_KEY=SECRET_KEY
+      - PG_USER=postgres
+      - PG_PASSWORD=postgres
+      - PG_HOST=postgres
+      - PG_PORT=5432
+      - PG_DB=pdf_research_assistant
+    networks:
+        - pdf-research-assistent-network
+    depends_on:
+      - postgres
 
 networks:
   pdf-research-assistent-network:

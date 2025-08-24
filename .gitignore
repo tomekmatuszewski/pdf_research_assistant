@@ -11,3 +11,6 @@ wheels/
 qdrant_storage/
 data/*.pdf
 ollama_data
+
+postgres_data/
+grafana_data/

@@ -18,7 +18,6 @@ class QdrantConnector:
         self.qdrant_client = QdrantClient(host=qdrant_host, port=qdrant_port)
         self.embedding_model = SentenceTransformer(embedding_model)
         self.collection_name = collection_name
-        self._ensure_collection_exists()
 
     @property
     def sentence_splitter(self):
@@ -28,26 +27,24 @@ class QdrantConnector:
             separators=["\n\n", "\n", ".", " "]  # Prioritize splitting on paragraph, newline, and sentence boundaries
         )
     
-    def _ensure_collection_exists(self):
+    def recreate_collection(self):
         """Check and create collection in Qdrant if it doesn't exist"""
         try:
             collections = self.qdrant_client.get_collections()
             collection_names = [col.name for col in collections.collections]
+            if self.collection_name in collection_names:
+                print(f"Collection '{self.collection_name}' already exists, deleting it for fresh start.")
+                self.qdrant_client.delete_collection(collection_name=self.collection_name)
+            vector_size = self.embedding_model.get_sentence_embedding_dimension()
             
-            if self.collection_name not in collection_names:
-                # Create collection with appropriate parameters
-                vector_size = self.embedding_model.get_sentence_embedding_dimension()
-                
-                self.qdrant_client.create_collection(
-                    collection_name=self.collection_name,
-                    vectors_config=VectorParams(
-                        size=vector_size,
-                        distance=Distance.COSINE
-                    )
+            self.qdrant_client.create_collection(
+                collection_name=self.collection_name,
+                vectors_config=VectorParams(
+                    size=vector_size,
+                    distance=Distance.COSINE
                 )
-                print(f"Created collection '{self.collection_name}'")
-            else:
-                print(f"Collection '{self.collection_name}' already exists")
+            )
+            print(f"Created collection '{self.collection_name}'")
         except Exception as e:
             print(f"Error creating collection: {e}")
 
