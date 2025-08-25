@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter, CharacterTextSplitter
 from typing import Any
 import uuid
 
@@ -12,19 +12,18 @@ class QdrantConnector:
         self, 
         qdrant_host: str = "localhost", 
         qdrant_port: int = 6333,
-        embedding_model: str = "jinaai/jina-embeddings-v2-small-en",
+        embedding_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         collection_name: str = "pdf_documents"
     ):
         self.qdrant_client = QdrantClient(host=qdrant_host, port=qdrant_port)
         self.embedding_model = SentenceTransformer(embedding_model)
         self.collection_name = collection_name
 
-    @property
-    def sentence_splitter(self):
+    def _get_sentence_splitter(self, chunk_size: int, overlap: int) -> RecursiveCharacterTextSplitter:
         return RecursiveCharacterTextSplitter(
-            chunk_size=500,     # Number of characters per chunk
-            chunk_overlap=50,   # Overlap to maintain context
-            separators=["\n\n", "\n", ".", " "]  # Prioritize splitting on paragraph, newline, and sentence boundaries
+            chunk_size=chunk_size,     # Number of characters per chunk
+            chunk_overlap=overlap,   # Overlap to maintain context
+            separators=["\n\n", "\n", ".", " ", ""]  # Prioritize splitting on paragraph, newline, and sentence boundaries
         )
     
     def recreate_collection(self):
@@ -64,7 +63,7 @@ class QdrantConnector:
         Returns:
             List of IDs of added points
         """
-        sentence_chunks = self.sentence_splitter.split_text(text)
+        sentence_chunks = self._get_sentence_splitter(metadata["chunk_size"], metadata["overlap"]).split_text(text)
         print(f"text spliited into {len(sentence_chunks)} chunks")
         for i, chunk in enumerate(sentence_chunks):
             point_id = str(uuid.uuid4())

@@ -77,11 +77,10 @@ Frontend Preview:
 
 **Retrieval Evaluation:** ([notebooks/evaluation_retrieval.ipynb](notebooks/evaluation_retrieval.ipynb))
 - Three libraries considered for PDF extraction: `pdf_plumber`, `PyMuPDF`, and `pypdf`.
-- Highest relevance achieved with `pdf_plumber`, selected as the main extractor.
+- Highest relevance achieved with `pypdf`, selected as the main extractor.
 
 **Model Comparison:**
-- `jinaai/jina-embeddings-v2-small-en` vs `all-MiniLM-L6-v2`
-- `jinaai/jina-embeddings-v2-small-en` gave better scores and answer order.
+- sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 was used as it provide support for Polish as well
 
 **Semantic Search vs Hybrid Search:**
 - For the tested dataset, hybrid search did not provide significant improvement. Semantic search was chosen for simplicity and performance.
@@ -94,11 +93,11 @@ Frontend Preview:
 
 **qwen3:1.7b**
 
-<img src="images/rag1.png" width="400">
+<img src="images/rag2.png" width="400">
 
 **qwen3:latest**
 
-<img src="images/rag2.png" width="400">
+<img src="images/rag1.png" width="400">
 
 Overall, the smaller model performed better in this case.
 

@@ -1,6 +1,7 @@
 import os
 from qdrant_connector import QdrantConnector
-import pdfplumber
+from langchain_community.document_loaders import PyMuPDFLoader, PDFPlumberLoader, PyPDFLoader
+
 
 
 class PDFToQdrant:
@@ -19,9 +20,9 @@ class PDFToQdrant:
     def _extract_pdf(self, pdf_path: str) -> str:
         try:
             text = ""
-            with pdfplumber.open(pdf_path) as pdf:
-                for page in pdf.pages:
-                    text += page.extract_text() + "\n"
+            pages = PyPDFLoader(pdf_path).load()
+            for page in pages:
+                text += page.page_content + "\n"
             return text
         except Exception as e:
             print(f"Error reading PDF: {e}")
@@ -31,7 +32,7 @@ class PDFToQdrant:
         self, 
         pdf_path: str, 
         chunk_size: int = 1000, 
-        overlap: int = 100
+        overlap: int = 200
     ) -> None:
         print(f"Processing file: {pdf_path}")
         text = self._extract_pdf(pdf_path)

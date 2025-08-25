@@ -41,11 +41,13 @@ if __name__ == "__main__":
         for url in urls:
             download_pdf(url, DATA_PATH)
 
-    qdrant_connector = QdrantConnector(qdrant_host=os.getenv("QDRANT_HOST"))
+    embedding_model = os.getenv("EMBEDDING_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+    qdrant_connector = QdrantConnector(qdrant_host=os.getenv("QDRANT_HOST"), embedding_model=embedding_model
+                                       )
     qdrant_connector.recreate_collection()
 
     pdf_processor = PDFToQdrant(qdrant_connector=qdrant_connector)
     for file in DATA_PATH.glob("*.pdf"):
-        pdf_processor.process_pdf(file, chunk_size=500, overlap=100)
+        pdf_processor.process_pdf(file, chunk_size=800, overlap=100)
         
 
